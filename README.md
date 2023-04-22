@@ -3,7 +3,7 @@
 
 Description:
 
-The Pizza project is a GitHub repository dedicated to a hands-on exercise whose goal is to test and improve our JavaScript, HTML and CSS skills. The goal of this project is to create a simple, interactive, non-commercial pizza ordering website in order to apply the concepts and techniques learned during our studies.
+The Pizza project is a GitHub repository dedicated to a hands-on exercise whose goal is to test and improve our JavaScript, HTML and CSS skills. The goal of this project is to create a simple, interactive, non-commercial pizza ordering website in order to apply the concepts and techniques learned during our studies(3grd).
 
 Main features:
 
@@ -20,6 +20,15 @@ Main features:
 - The repository includes the source code, documentation, and resources needed to implement the project.
 
 
-## View 
 
+## Screenshots
+
+### Home
+![App Accueil Screenshot](https://github.com/birladotech/pizza-website/blob/main/SCR-20230422-cza.jpeg)
+
+### Menu
+![App menu Screenshot](https://github.com/birladotech/pizza-website/blob/main/pizza-menu.png)
+
+### Pizza Location
+![App menu Screenshot](https://github.com/birladotech/pizza-website/blob/main/pizza-location.png)
 
