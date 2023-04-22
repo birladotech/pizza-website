@@ -1,0 +1,80 @@
+
+.user_form{
+    width: 50%;
+    margin: auto;
+}
+.img_form img{
+    width: 400px;
+    object-fit: cover;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-color:#FFFFFF;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+	color: #002741;
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+
+}
+
+
+/*contact form*/
+.contact_form h2
+{
+    text-align: center;
+}	
+
+
+
+.contact_form input
+{
+	margin:20px;
+	padding: 8px;
+}
+.contact_form input[type="radio"]
+{
+	margin-bottom: -13px;
+	margin-left: 20px;
+}
+
+label[for="date"]{
+    margin-right: 132px;
+    margin-left: 20px;
+}
+
+
+input[type="email"],input[type="tel"],input[placeholder="Adresse"]{
+    width: 58%;
+
+}
+
+.contact_form input[type="submit"]
+{
+	background-color:#9bddff;
+	border:none;
+	color: #002741;
+	font-size: 1.2em;
+	cursor: pointer;	
+}
+.contact_form input[type="submit"]:hover
+{
+	background-color: #002741;
+    color: white;
+}
+.commande_txt{
+    display: none;
+}
+.commande_txt img{
+    width: 300px;
+}
+
+
+
+
+@media screen and(max-width:480px){
+    .contact_form label{
+        font-size: small;
+    }
+}

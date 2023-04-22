@@ -1,0 +1,636 @@
+/* global property */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.img_menu {
+  display: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+p {
+  font-size: 1em;
+  color: #3b3b3b;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: #f5b133;
+}
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 2px 2px 7px rgb(49, 49, 49);
+  padding: 2px;
+  position: fixed;
+  top: 0;
+  background-color: #f1f1f1;
+  z-index: 3;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.logo img:hover {
+  opacity: 0.8;
+}
+
+nav ul {
+  display: flex;
+  color: rgb(19, 18, 18);
+  list-style: none;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.nav ul li img {
+  height: 19px;
+  margin-right: 2px;
+}
+
+nav ul li:not(:nth-child(5)) {
+  border-right: 1px solid rgb(39, 39, 39);
+}
+
+.telephone {
+  font-size: 1.4em;
+  color: #f5b133;
+}
+
+.telephone p {
+  display: flex;
+  font-weight: bold;
+}
+
+/* banner */
+.banner {
+  background: url("../images/bg_banner.jpg");
+  height: 600px;
+  margin-top: 110px;
+}
+.our_menu {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.bg_black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+.text_banner {
+  font-size: 1em;
+  margin-left: 40px;
+}
+.text_banner span:nth-child(1) {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #ea5353;
+}
+
+.text_banner h1 {
+  color: #f1f1f1;
+  font-style: italic;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.pizza_text {
+  font-size: 1.8em;
+}
+
+.text_banner .fruit {
+  color: #f5b133;
+}
+
+.order_online {
+  display: flex;
+  justify-content: center;
+}
+
+.order_online button {
+  color: #f1f1f1;
+  border: 0;
+  padding: 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+  width: 200px;
+  background-color: #ea5353;
+  transition: all 0.5s;
+}
+
+.order_online button:hover,
+.order_online button a:hover {
+  background-color: #f1f1f1;
+  color: #ea5353;
+  transition: all 0.5s;
+}
+.order_online button:hover {
+  box-shadow: 1px 1px 10px lightsteelblue;
+}
+
+/* notre menu */
+.box_menu_pizza {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card_menu_child {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgb(39, 39, 39);
+  margin-bottom: 10px;
+}
+.img_menu1 {
+  background: url("../images/chad-montano-MqT0asuoIcU-unsplash.jpg")
+    center/cover no-repeat;
+}
+.img_menu2 {
+  background: url("../images/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg")
+    center/cover no-repeat;
+}
+.img_menu3 {
+  background: url("../images/likemeat-CbNAuxSZTFo-unsplash.jpg") center/cover
+    no-repeat;
+}
+
+.img_menu4 {
+  background: url("../images/sahand-hoseini-BMVAYjPf6mU-unsplash.jpg")
+    center/cover no-repeat;
+}
+
+.img_menu5 {
+  background: url("../images/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg")
+    center/cover no-repeat;
+}
+
+.img_menu6 {
+  background: url("../images/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg")
+    center/cover no-repeat;
+}
+
+.img_menu7 {
+  background: url("../images/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg") center/cover
+    no-repeat;
+}
+.img_menu8 {
+  background: url("../images/saahil-khatkhate-kfDsMDyX1K0-unsplash.jpg")
+    center/cover no-repeat;
+}
+
+.price {
+  width: 79px;
+  height: 40px;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transform: rotate(-15deg);
+  background-color: #ea5353;
+}
+
+.price p {
+  color: #f1f1f1;
+}
+
+.special_price p {
+  width: 200px;
+  font-size: 1.5em;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #f5b133;
+  color: #131313;
+  transform: rotate(-15deg);
+}
+
+/* step info */
+.step_info {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+.step_info_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.step_info img {
+  width: 60px;
+}
+.step_info_div p:nth-child(2) {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.yellow_row {
+  width: 50px;
+  border-bottom: 5px solid #f5b133;
+  margin-bottom: 5px;
+}
+/* free delivery */
+.free_delivery {
+  background: url("../images/pizza-4968645_1920.jpg") center/cover no-repeat;
+  height: 500px;
+}
+.bg_black_delivery {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+.free_delivery_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  color: #f1f1f1;
+  justify-content: center;
+}
+.free_block_reverse {
+  display: flex;
+  align-items: center;
+}
+.ligne_left,
+.ligne_right {
+  width: 110px;
+  border-bottom: 2px solid #f5b133;
+}
+.free_delivery_div p {
+  color: #f1f1f1;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.free_delivery h1 {
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: slide 5s ease 1s infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.free_delivery_price {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.free_delivery_price p {
+  color: #f5b133;
+  font-size: 3.8em;
+}
+.free_delivery ul {
+  list-style: none;
+  padding: 5px;
+}
+/* chef */
+.our_chef {
+  text-align: center;
+}
+.our_team_div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.img_team img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.text_team {
+  font-size: 0.8em;
+  color: #f5b133;
+  margin-bottom: 20px;
+}
+.icon_team img {
+  width: 20px;
+  height: 20px;
+}
+.icon_team a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 1px solid #f5b133;
+  transition: all 0.5s;
+}
+
+.icon_team a:hover {
+  background-color: #3b3b3b;
+  box-shadow: 1px 1px 15px black;
+  transition: all 0.5s;
+}
+
+/* footer */
+
+.footer_div {
+  display: flex;
+  background: rgb(35, 32, 30);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.footer_div h1 {
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 1.4em;
+  padding-bottom: 15px;
+}
+
+.footer_div h4 {
+  color: #f1f1f1;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.footer_div ul {
+  list-style: none;
+  margin-top: 10px;
+  color: #616161;
+}
+.footer_div p {
+  color: #616161;
+}
+
+.footer_div strong {
+  color: #f1f1f1;
+}
+
+.same_div_footer {
+  width: 400px;
+}
+.div_section1 {
+  border-right: 1px solid #3b3b3b;
+}
+.div_section3 {
+  border-left: 1px solid #3b3b3b;
+  padding-left: 10px;
+  height: 230px;
+  padding-top: 40px;
+}
+.our_div {
+  padding-top: 10px;
+}
+.our {
+  display: flex;
+  align-items: center;
+}
+.our img {
+  width: 25px;
+  margin-right: 4px;
+}
+.form_news {
+  display: flex;
+  align-items: center;
+}
+
+.form_news input {
+  margin-top: 10px;
+  padding: 14px;
+  width: 250px;
+  margin-right: 10px;
+  border-radius: 25px;
+  outline: 0;
+  border: 0;
+}
+.form_news input:focus-within {
+  background-color: #f1f1f1;
+}
+
+.div_section2 {
+  margin-left: 30px;
+}
+
+.follow_us {
+  padding: 10px;
+}
+
+.follow_us img {
+  width: 20px;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+.follow_us a:hover {
+  opacity: 1;
+}
+/* media 940px */
+@media (max-width: 940px) {
+  header {
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+
+  .nav ul {
+    display: none;
+  }
+  .telephone {
+    display: none;
+  }
+  .navigation ul {
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    margin-top: 20px;
+    display: block;
+    height: 100vh;
+    background-color: #f5b133b0;
+    animation: slideRight 2s ease-in-out both;
+
+    transform: translateX(240px);
+  }
+  @keyframes slideRight {
+    0% {
+      transform: translateX(190px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .navigation ul li {
+    border: 0;
+    font-size: 1.8em;
+    margin-bottom: 28px;
+    padding: 10px;
+  }
+
+  .navigation ul li:hover {
+    background-color: #3b3b3b;
+  }
+
+  .img_menu {
+    display: block;
+    cursor: pointer;
+  }
+}
+/* media 480px */
+@media (max-width: 480px) {
+  .step_info .step_info_div:last-child {
+    display: none;
+  }
+}
+/* media 1099 */
+@media (max-width: 1099px) {
+  header {
+    font-size: 0.7em;
+  }
+  .menu .card_menu_block:last-child {
+    display: none;
+  }
+
+  .order_online button {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+/* media 700 */
+@media (max-width: 700px) {
+  .menu {
+    width: 100%;
+    margin: auto;
+  }
+  .box_menu_pizza {
+    flex-direction: column;
+  }
+  .card_menu_block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card_menu_child {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .step_info .step_info_div:last-child {
+    display: none;
+  }
+  .our_team_div {
+    padding: 4px;
+    white-space: nowrap;
+  }
+  .img_team img {
+    width: 100px;
+    height: 100px;
+  }
+  .icon_team img {
+    width: 15px;
+    height: 15px;
+  }
+  .icon_team a {
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .footer_div {
+    flex-direction: column;
+  }
+  .div_section1 {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #3b3b3b;
+    margin-bottom: 10px;
+  }
+  .div_section2 {
+    width: 100%;
+    margin-left: 0;
+    border-bottom: 1px solid #3b3b3b;
+    margin-bottom: 10px;
+  }
+  .div_section3 {
+    width: 100%;
+    border-left: 0;
+  }
+}
+/* media 1267 */
+@media (max-width: 1267px) {
+  #container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  h1 {
+    font-size: large;
+    margin: 10px 10px;
+  }
+
+  .card_menu_child {
+    width: 250px;
+    height: 250px;
+  }
+
+  .special_price p {
+    width: 200px;
+  }
+  .price {
+    width: 50px;
+  }
+}
